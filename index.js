@@ -1,7 +1,7 @@
 import { google }  from 'googleapis'
 import { readFile } from 'fs/promises'
 
-const fcmToken = "ejbfHIypQusdfasdfasdcxg9:APA91bG02ikz5x6utqmasdfasdfasd1OPa2iWIkQ_8ziT5BPCHVLZwFOYN08Qx06Ab81B9y"
+const fcmToken = "e4ytHHbVRKmThx25IVkg9h:APA91bEWM2CM8PQ7I9922OtZFyE-XyVmqNDVy8yOT-8x8yH1u-VwjCFAnVlAHq5iErzNx48tE-07zE4LVLNeifX3ayPUTi3RZysXb9qwjFKnTjWv362PtCI"
 
 const serviceAccount = JSON.parse(
     await readFile(
